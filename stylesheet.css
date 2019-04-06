@@ -23,7 +23,7 @@ label {
 }
 
 input[type=submit] {
-  background-color: #30336b;
+  background-color: #273c75;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -50,4 +50,106 @@ input[type=submit]:hover {
  height:250px; 
  width:250px;
  object-fit: contain;
+}
+
+.topimg {
+    min-width:350px;
+    max-height:350px;
+}
+
+.bottomimg {
+     width:250px;
+    max-height:250px;
+}
+
+.klase {
+    display:flex;
+}
+
+.phone {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.phone img {
+ 
+}
+
+.phone .btn {
+  opacity: 0;
+  transition: opacity .35s ease;  
+  position: absolute;
+  top: 75%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #273c75;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.phone .btn:hover {
+  background-color: #5574c7;
+  color:white;
+}
+
+.phone:hover .btn {
+  opacity:1;
+}
+
+.push {
+    
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+  border: 2px solid #30336b;  
+}
+
+
+td, th {
+  
+  text-align: left;
+  padding: 8px;
+   background-color: #ffffff  
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+
+.PinfoT {
+margin-top:70px;	
+}
+
+span {
+  cursor: pointer;
+}
+
+
+.font-changer {
+}
+
+.js-font-normal {
+    
+}
+
+.jstext{
+    color:#ffffff;
+}
+
+.js-font-decrease {
+    font-size: 75%;
+}
+
+.js-font-increase {
+    font-size: 125%;
 }
